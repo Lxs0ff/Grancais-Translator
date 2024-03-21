@@ -9,7 +9,7 @@ for line in lines:
     for word in words:
         count+=1
         if word != "\n":
-            if word[0] != "a":
+            if word[0].lower != "a":
                 word = word[0:]
                 word = word[1:]
                 if count == 1:
