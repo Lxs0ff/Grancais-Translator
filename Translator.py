@@ -27,4 +27,5 @@ for line in lines:
         else:
             new_file.write("/n")
             print("/n")
-            
+new_file.close()
+file.close()
