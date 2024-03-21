@@ -26,4 +26,5 @@ for line in lines:
             print(word+" ")
         else:
             new_file.write("/n")
+            print("/n")
             
